@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class homework1 {
+public class Homework1 {
 
     public static void main(String[] args) {
         //Базовый уровень.
