@@ -1,17 +1,20 @@
+import java.util.Locale;
+
 public class homework1 {
 
     public static void main(String[] args) {
         //Базовый уровень.
-
+        
         //Задача №1
         String hi = "                Hello ";
         String world = " WoRld!";
         char newLine = '\n';
         String newString = hi + world.toLowerCase() + newLine;
         newString = newString.trim();
-        for (int x = 0; x < 3; x++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println(newString);
         }
+
 
         //Задача №2
         int kg = 63;
@@ -33,10 +36,12 @@ public class homework1 {
         int newText234 = Integer.parseInt(text234);
         int sumAll = newText234 + some_text.length();
         System.out.println("Задача №1: " + sumAll);
+
         //Задача №2
         int a = 3;
         int b = 5;
         System.out.println("Задача №2: " + Math.pow((a + b), 2));
+
         //Задача №3
         int[] arrayOne = {1, 2, 5, 7, 10};
         int[] arrayTwo = {2, 3, 2, 17, 15};
@@ -53,7 +58,17 @@ public class homework1 {
             System.out.print(arrayAll[i] + " ,");
         }
         //Задача№4
-        String world1 = "Hello world";
+        String string1= "Hello world";
+        string1 = string1.replace('l', 'r');
+        string1 = string1.toUpperCase(Locale.ROOT);
+
+        System.out.println("\nЗадача №4: "+string1.substring(0,8));
+
+
+
+
+
+
 
 
     }
