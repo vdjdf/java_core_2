@@ -40,10 +40,7 @@ public class HomeWorkEasy {
             System.out.println("Ингридиентов нет  ");
         }
 
-        //Задание №4:
-        System.out.println("Задача №4:");
-        HomeWorkEasyANIMAL dog = new HomeWorkEasyANIMAL(15, "Собака");
-        HomeWorkEasyANIMAL cat = new HomeWorkEasyANIMAL(7, "Кошка");
+
 
 
     }
